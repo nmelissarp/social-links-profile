@@ -1,0 +1,86 @@
+:root {
+    --fontFam: 'Inter', sans-serif;
+    --fontSize: 1.4rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    margin: 0;
+}
+
+.profile-card {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    width: 30rem;
+    color: hsl(0, 0%, 100%);
+    font-family: var(--fontFam);
+}
+
+.profile-figure {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 1.5rem;
+}
+
+.profile-image {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-name {
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 10px 0;
+}
+
+.profile-location {
+    color: hsl(75, 94%, 57%);
+    margin: 10px 0;
+    font-size: var(--fontSize)
+}
+
+.profile-description {
+    font-size: var(--fontSize);
+    margin: 20px 0;
+}
+
+.profile-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.profile-link {
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: var(--fontSize);
+    transition: background-color 0.3s;
+}
+
+.profile-link:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    font-weight: bold;
+}
