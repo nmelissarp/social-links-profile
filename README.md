@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [URL solution](https://nmelissarp.github.io/social-links-profile/)
+- Solution URL: [social-links-profile](https://nmelissarp.github.io/social-links-profile/)
 
 ## My process
 
