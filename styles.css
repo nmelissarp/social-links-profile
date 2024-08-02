@@ -79,7 +79,7 @@ body {
     transition: background-color 0.3s;
 }
 
-.profile-link:hover {
+.profile-link:hover, .profile-link:focus {
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 8%);
     font-weight: bold;
